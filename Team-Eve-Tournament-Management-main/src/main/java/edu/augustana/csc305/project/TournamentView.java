@@ -14,7 +14,7 @@ import java.util.List;
 public class TournamentView extends VBox {
 
     private static final DateTimeFormatter DT_FMT = DateTimeFormatter.ofPattern("MM-dd-yyyy hh:mm a");
-    private Tournament testTournament = new Tournament("Test", LocalDateTime.parse("10-09-2000 2:00 PM", DT_FMT));
+    private Tournament testTournament = new Tournament("Test", LocalDateTime.parse("10-09-2000 02:00 PM", DT_FMT));
     
 
     public TournamentView(ObservableList<Tournament> store) {
